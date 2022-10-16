@@ -1,0 +1,95 @@
+.header-site {
+    background-image: url(../img/banner4.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(23, 18, 71);
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    font-size:100%;
+ 
+
+}
+
+  
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    font-family: Arial;
+    text-align-last: auto;
+    background-color: #fff;
+    
+    
+}
+
+.menu-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9393e9;
+    height: 52px;
+    width: 100%;
+}
+
+.logo {
+    margin: 5px;
+}
+
+.header-2 {
+    background-color: #fff;
+    width: 980px;
+    margin: auto;
+    border-bottom: 3px solid #efefef;
+}
+
+.header-2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-2 ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    color:#8b8b8b;
+    margin-left: 5px;
+    height: 50px;
+}
+
+.header-2 ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+.header-2 ul li a:hover {
+    color:#00bac6; 
+}
+.header-2 ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font: 400 16px 'ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+#page {
+    width: 980px;
+    margin: auto;
+}
+
+#page p {
+    font: 400 14px 'ubuntu', sans-serif;
+}
+#topo, #projeto_integrador, #curriculo, #nos_avalie {
+    margin-top: 30px;
+    
+}
